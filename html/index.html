@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Dot Game</title>
+        
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+        <link href="../stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+      
+        <div class="controls">
+        
+            <div class="controls__row">
+              
+                <div>
+                    <span class="controls__score">
+                        0
+                    </span>
+                </div>
+
+                <div>
+                    <button class="controls__btn">
+                        Start
+                    </button>
+                </div>
+                  
+            </div>
+
+            <div class="controls__row">
+                
+                <input type="range" min="10" max="100" value="10"  class="speed__slider">
+
+            </div>
+
+            <div class="controls__row">
+                
+                <p class="speed__label">
+                    Speed: <span class="speed__value">10</span>
+                </p>
+
+            </div>
+        
+        </div>
+
+        <div class="game">
+        </div>
+
+        <script src="../js/index.js"></script>
+
+    </body>
+
+</html>
